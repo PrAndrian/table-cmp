@@ -13,7 +13,7 @@ function ShowingRowTableVariants() {
 
         {/* Default Variant */}
         <div>
-          <h3>Default Variant</h3>
+          <h3>Default Example</h3>
           <ShowingRowTable
             itemsPerPage={10}
             onItemsPerPageChange={handleItemsPerPageChange}
@@ -21,11 +21,24 @@ function ShowingRowTableVariants() {
             indexOfFirstItem={0}
             indexOfLastItem={9}
           />
+          <p>
+            Description: This is the default variant of the ShowingRowTable component. It displays information about the currently shown rows and allows selecting the number of items to display per page.
+            <ul>
+              <li>Props Used:</li>
+              <ul>
+                <li>- `itemsPerPage`: The number of items to display per page (10).</li>
+                <li>- `onItemsPerPageChange`: A callback function for handling the change in items per page.</li>
+                <li>- `totalItems`: The total number of items (100).</li>
+                <li>- `indexOfFirstItem`: Index of the first shown item (0).</li>
+                <li>- `indexOfLastItem`: Index of the last shown item (9).</li>
+              </ul>
+            </ul>
+          </p>
         </div>
 
         {/* Variant 1 */}
         <div>
-          <h3>Variant 1</h3>
+          <h3>Example 1</h3>
           <ShowingRowTable
             itemsPerPage={25}
             onItemsPerPageChange={handleItemsPerPageChange}
@@ -40,11 +53,31 @@ function ShowingRowTableVariants() {
             selectTextColor="black"
             spanTextColor="green"
           />
+          <p>
+            Description: Variant 1 of the ShowingRowTable component provides information about the currently shown rows and allows selecting the number of items to display per page. It features customization options for width, height, label color, select box border color, select box background color, select box text color, and text color for the shown rows.
+            <ul>
+              <li>Props Used:</li>
+              <ul>
+                <li>- `itemsPerPage`: The number of items to display per page (25).</li>
+                <li>- `onItemsPerPageChange`: A callback function for handling the change in items per page.</li>
+                <li>- `totalItems`: The total number of items (150).</li>
+                <li>- `indexOfFirstItem`: Index of the first shown item (25).</li>
+                <li>- `indexOfLastItem`: Index of the last shown item (49).</li>
+                <li>- `width`: Sets the width of the component to "400px."</li>
+                <li>- `height`: Sets the height of the component to "50px."</li>
+                <li>- `labelColor`: Sets the color of the label text to "blue."</li>
+                <li>- `selectBorderColor`: Sets the border color of the select box to "gray."</li>
+                <li>- `selectBackgroundColor`: Sets the background color of the select box to "white."</li>
+                <li>- `selectTextColor`: Sets the text color of the select box to "black."</li>
+                <li>- `spanTextColor`: Sets the text color for the shown rows to "green."</li>
+              </ul>
+            </ul>
+          </p>
         </div>
 
         {/* Variant 2 */}
         <div>
-          <h3>Variant 2</h3>
+          <h3>Example 2</h3>
           <ShowingRowTable
             itemsPerPage={50}
             onItemsPerPageChange={handleItemsPerPageChange}
@@ -59,6 +92,26 @@ function ShowingRowTableVariants() {
             selectTextColor="white"
             spanTextColor="purple"
           />
+          <p>
+            Description: Variant 2 of the ShowingRowTable component displays information about the currently shown rows and allows selecting the number of items to display per page. It offers customizations for width, height, label color, select box border color, select box background color, select box text color, and text color for the shown rows.
+            <ul>
+              <li>Props Used:</li>
+              <ul>
+                <li>- `itemsPerPage`: The number of items to display per page (50).</li>
+                <li>- `onItemsPerPageChange`: A callback function for handling the change in items per page.</li>
+                <li>- `totalItems`: The total number of items (200).</li>
+                <li>- `indexOfFirstItem`: Index of the first shown item (50).</li>
+                <li>- `indexOfLastItem`: Index of the last shown item (99).</li>
+                <li>- `width`: Sets the width of the component to "300px."</li>
+                <li>- `height`: Sets the height of the component to "40px."</li>
+                <li>- `labelColor`: Sets the color of the label text to "red."</li>
+                <li>- `selectBorderColor`: Sets the border color of the select box to "black."</li>
+                <li>- `selectBackgroundColor`: Sets the background color of the select box to "lightblue."</li>
+                <li>- `selectTextColor`: Sets the text color of the select box to "white."</li>
+                <li>- `spanTextColor`: Sets the text color for the shown rows to "purple."</li>
+              </ul>
+            </ul>
+          </p>
         </div>
 
         {/* Add more variants as needed */}

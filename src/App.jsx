@@ -281,6 +281,7 @@ const App = () => {
   return (
     <>
       <main className="px-10">
+        <h1 className="text-3xl font-bold">Example</h1>
         <div className="
           flex 
           justify-end 
@@ -350,6 +351,45 @@ const App = () => {
             height="45px"
           />
         </footer>
+        <div>
+          <h2 className="text-xl font-bold">Employee Management Dashboard</h2>
+          <p>Description: This example demonstrates an Employee Management Dashboard built with React. The dashboard allows users to search, filter, and display a list of employees with various details, including first and last names, birthdate, start date, department, address, and more. It features various components and their variants to enhance the user interface and experience.</p>
+
+          <ul>
+              <li>
+                  <h2>Components Used</h2>
+                  <ul>
+                      <li> -<strong>SearchBar:</strong> A search bar component for filtering employees by name.</li>
+                      <li> -<strong>EmployeeTable:</strong> A table component to display the list of employees with sorting and custom styling.</li>
+                      <li> -<strong>ShowingRowTable:</strong> A component displaying information about the number of items shown per page.</li>
+                      <li> -<strong>PaginationTable:</strong> A pagination component for navigating through the list of employees.</li>
+                  </ul>
+              </li>
+          </ul>
+
+          <h2>Sample Employee Data</h2>
+          <p>Here is some sample employee data used in the dashboard:</p>
+          <ul>
+              <li> -First Name: John</li>
+              <li> -Last Name: Doe</li>
+              <li> -Birthdate: 15/03/1985</li>
+              <li> -Start Date: 12/07/2010</li>
+              <li> -Department: Engineering</li>
+              <li> -Street: 123 Main Street</li>
+              <li> -City: New York</li>
+              <li> -State: New York</li>
+              <li> -Zip Code: 10001</li>
+          </ul>
+
+          <h2>Functionality</h2>
+          <p>The Employee Management Dashboard provides the following functionality:</p>
+          <ul>
+              <li> -Searching and filtering employees based on their names.</li>
+              <li> -Sorting the employee list by various criteria.</li>
+              <li> -Pagination to navigate through a large list of employees.</li>
+              <li> -Custom styling and variants for components, enhancing user experience.</li>
+          </ul>
+        </div>
       </main>
       <SearchBarVariants/>
       <ShowingRowTableVariants/>
